@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <p>My Registration Form</p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email_address" name="email_address">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="pwconfirm">PW Confirm:</label>
+        <input type="password" id="pw_confirm" name="pw_confirm">
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birth_date" name="birth_date">
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+
+        <p>A short description of yourself:</p>
+        <textarea name="description"></textarea>
+
+        <label for="favlanguage">Favorite Language</label>
+        <select name="fav_language">
+            <option value="javascript">Javascript</option>
+            <option value="dothraki">Dothraki</option>
+            <option value="valyrian">Valyrian</option>
+        </select>
+        
+        <input type="submit" value="Submit">   
+    </form>
+
+</body>
+</html>
